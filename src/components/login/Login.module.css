@@ -1,0 +1,21 @@
+
+.logincontainer {
+    background-color: #435c70;
+    max-width: 380px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .logincontainer div {
+    width: 100%;
+  }
+  p.err {
+    color: red !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+  
+
+ 

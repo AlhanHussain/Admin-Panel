@@ -1,0 +1,31 @@
+.flexdiv {
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 75px;
+  }
+  .flexdiv div:first-child {
+    margin-right: 10px;
+  }
+  .flexdiv > div {
+    width: 45%;
+  }
+  p{
+    color: #fff!important;
+    margin-bottom: 50px;
+    margin-left: 79px;
+  }
+  b{
+ 
+      font-weight: bolder;
+  }
+
+  
+  @media (max-width: 767px) {
+    .flexdiv {
+      display: block;
+    }
+    .flexdiv > div {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
